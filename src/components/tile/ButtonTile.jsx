@@ -10,9 +10,9 @@ export default ({label, location, square, icon, disabled, className}) => {
             <Tile
                 square={square}
                 className={`
-                    transition
+                    transition ease-out
                     p-5 flex-col gap-5 justify-between items-end text-white select-none aspect-square
-                    ${disabled ? "cursor-not-allowed saturate-0" : "cursor-pointer active:scale-95 hover:brightness-125 "} 
+                    ${disabled ? "cursor-not-allowed saturate-0" : "cursor-pointer active:scale-95 hover:brightness-125 focus-visible:outline-none"} 
                     ${className}
                 `}
             >
