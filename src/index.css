@@ -4,6 +4,6 @@
 
 @layer base {
     html, body, #root {
-        @apply min-h-screen mx-auto bg-black
+        @apply h-full w-full bg-black
     }
 }

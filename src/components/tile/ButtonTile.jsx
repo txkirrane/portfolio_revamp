@@ -6,6 +6,7 @@ export default ({label, location, square, icon, disabled, className}) => {
         <a
             href={location ?? ""}
             target="_blank"
+            
         >
             <Tile
                 square={square}
