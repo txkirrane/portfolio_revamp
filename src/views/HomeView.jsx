@@ -36,7 +36,7 @@ export default () => {
                 <ButtonTile className="bg-slate-800" location="https://github.com/txkirrane" icon={<GitHub />} />
                 <ButtonTile className="bg-blue-600" location="https://www.linkedin.com/in/tkirrane/" label="LinkedIn" icon={<Linkedin />} />
                 <ButtonTile className="bg-lime-600" location="mailto:txkirrane@txkirrane.dev" label="Email" icon={<Mail />} />
-                <ButtonTile className="bg-amber-600" location="https://quintxt.com/" label="Resume" icon={<Briefcase />} />
+                <ButtonTile className="bg-amber-600" location="/Resume.pdf" label="Resume" icon={<Briefcase />} />
             </SubTile>
             <SubTile>
                 <ButtonTile className="bg-amber-600" location="https://quintxt.com/" label="QuinTxt" icon={<Bookmark />} />

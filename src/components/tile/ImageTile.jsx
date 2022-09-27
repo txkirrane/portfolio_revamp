@@ -23,7 +23,7 @@ export default ({src, ...props}) => {
             !loading ?
                 <img
                     src={url}
-                    className="w-full h-full object-cover rounded-xl"
+                    className="w-full h-full object-cover rounded-xl animate-in fade-in"
                 />:
                 <Loading />
         }</Tile>
