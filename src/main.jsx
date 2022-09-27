@@ -10,7 +10,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<HomeView />} />
-        <Route path='projects' element={<HomeView />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
