@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import Tile from "./Tile"
 import Loading from "../misc/Loading"
 
-export default ({src, ...props}) => {
+export default ({src, alt, ...props}) => {
 
     const [loading, setLoading] = useState(true)
 
@@ -22,6 +22,7 @@ export default ({src, ...props}) => {
         <Tile {...props}>{
             !loading ?
                 <img
+                    alt={alt}
                     src={url}
                     className="w-full h-full object-cover rounded-xl animate-in fade-in"
                 />:
